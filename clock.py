@@ -10,7 +10,7 @@ root.title("clock")
 
 
 def time():
-    string = strftime('%H: %M: %S %P')
+    string = strftime('%H: %M: %S')
     label.config(text=string)
     label.after(1000, time)
 
